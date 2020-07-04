@@ -1,0 +1,32 @@
+.arr-bar {
+    width: 5px;
+    display: inline-block;
+    margin: 0 1px;
+  }
+
+.arr-container {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-color: #B5838D;
+    overflow: hidden;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #FFDDD2;
+  }
+
+  #wrapper {
+    width: 100%;
+    border: 0px solid black;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+  }
