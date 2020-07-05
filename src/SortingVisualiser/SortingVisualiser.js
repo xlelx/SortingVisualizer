@@ -69,6 +69,7 @@ class SortingVisualiser extends React.Component {
         else if (algo === SELECTIONSORT) animations = selectionSortAnimations(this.state.arr);
         else if (algo === QUICKSORT) animations = quickSortAnimations(this.state.arr);
         else if (algo === INSERTIONSORT) animations = insertionSortAnimations(this.state.arr);
+        
         console.log(animations);
         for (let i = 0; i < animations.length; i++) {
             const arrBars = document.getElementsByClassName('arr-bar');
