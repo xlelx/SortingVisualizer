@@ -11,8 +11,8 @@ import ToggleButton from 'react-bootstrap/ToggleButton'
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 
-const PRIMARY_COLOR = '#6d6875'
-const SECONDARY_COLOR = '#ffcdb2'
+const PRIMARY_COLOR = '#ef6817'
+const SECONDARY_COLOR = '#ffffff    '
 const DEF_ARR_SIZE = 100
 const MAX_BAR_HEIGHT = 400
 const ANIMATION_SPEED = 2
